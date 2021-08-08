@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+header {
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(gray, black);
+    color: #ffffff;
+}
+h1 {
+    font-size: 75px;
+    text-align: center;
+
+}
+body {
+    background-color: red;
+
+}
+h2 {
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: wavy;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    
+
+}
+#workhead {
+ background-image: linear-gradient(black,red);
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    
+
+}
+.work {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.workexamp {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: black;
+
+}
+@media screen and (max-width: 992px) {
+    .workexamp {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .workexamp {
+      width: 100%;
+    }
+  }
+  #contact {
+    background-image: linear-gradient(red,black);
+
+
+  }
+  #foot {
+      background-color: grey;
+  } 
+
+  footer {
+    padding: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: wavy;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(black,grey);
+
+  }
